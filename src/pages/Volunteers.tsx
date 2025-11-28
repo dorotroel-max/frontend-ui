@@ -32,7 +32,7 @@ export default function Volunteers() {
       },
       {
         id: 2,
-        name: "Jane Smith",
+        name: "Jane Yap",
         role: "Coordinator",
         hours: 32,
         skills: ["Organization", "Problem-solving", "Teamwork"],
