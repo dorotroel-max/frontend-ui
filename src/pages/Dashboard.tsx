@@ -178,7 +178,7 @@ export default function Dashboard() {
             <div className="text-2xl">✅</div>
             <div>
               <p className="font-medium text-gray-900 dark:text-white">
-                John Doe completed Community Cleanup
+                John Ace completed Community Cleanup
               </p>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 2 hours ago
