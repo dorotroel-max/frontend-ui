@@ -23,14 +23,14 @@ export default function Reports() {
 
   const volunteerReports: ReportData[] = [
     {
-      volunteerName: "John Doe",
+      volunteerName: "John Ace",
       hoursWorked: 40,
       opportunitiesCompleted: 3,
       skillsUsed: ["Leadership", "Communication"],
       lastActivity: "2024-01-15",
     },
     {
-      volunteerName: "Jane Smith",
+      volunteerName: "Jane Yap",
       hoursWorked: 32,
       opportunitiesCompleted: 2,
       skillsUsed: ["Organization", "Teamwork"],
