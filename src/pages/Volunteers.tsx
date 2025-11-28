@@ -25,7 +25,7 @@ export default function Volunteers() {
     return [
       {
         id: 1,
-        name: "John Doe",
+        name: "John Ace",
         role: "Team Lead",
         hours: 40,
         skills: ["Leadership", "Planning", "Communication"],
