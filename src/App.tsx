@@ -32,7 +32,7 @@ export default function App() {
   return (
     <BrowserRouter>
       {isAuthenticated && <Navbar />}
-      <div className={isAuthenticated ? "p-6" : ""}>
+      <div className={isAuthenticated ? "p-4 sm:p-6 md:p-8 max-w-7xl mx-auto" : ""}>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route

@@ -133,10 +133,10 @@ export default function Opportunities() {
   return (
     <div>
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold">Opportunities</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold">Opportunities</h1>
         <button
           onClick={() => setShowForm(!showForm)}
-          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg transition text-sm sm:text-base"
         >
           {showForm ? "Cancel" : "Add Opportunity"}
         </button>
@@ -222,7 +222,7 @@ export default function Opportunities() {
 
             <button
               type="submit"
-              className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 rounded-lg transition"
+              className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 rounded-lg transition min-h-12"
             >
               Add Opportunity
             </button>

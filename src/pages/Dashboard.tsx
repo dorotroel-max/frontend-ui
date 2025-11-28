@@ -48,7 +48,7 @@ export default function Dashboard() {
 
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-2 text-gray-900 dark:text-white">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 text-gray-900 dark:text-white">
         Welcome, {user?.name}! 👋
       </h1>
       <p className="text-gray-600 dark:text-gray-400 mb-8">
